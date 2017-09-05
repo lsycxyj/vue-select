@@ -230,8 +230,8 @@
   .v-select .spinner,
   .v-select .spinner:after {
     border-radius: 50%;
-    width: 5em;
-    height: 5em;
+    width: 1em;
+    height: 1em;
   }
   /* Loading Spinner States */
   .v-select.loading .spinner {
@@ -309,7 +309,7 @@
           </a>
         </li>
         <li v-if="!filteredOptions.length" class="no-options">
-          <slot name="no-options">Sorry, no matching options.</slot>
+          <slot name="no-options">无匹配结果</slot>
         </li>
       </ul>
     </transition>
